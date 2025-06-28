@@ -6,6 +6,6 @@ st.set_page_config(page_title="Estudo Obesidade",
 
 st.header("**Estudo Obesidade**")
 
-df = st.read_csv("Obesity.csv")
+st.read_csv("Obesity.csv")
 
 st.bar_chart(df.Age)
